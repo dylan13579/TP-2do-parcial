@@ -19,7 +19,7 @@ public class Arbol {
     public Arbol() {
         raiz = null;
     }
-
+// falta agregar los siguientes niveles
     public void armarArbol() {
         //level 1
         raiz = new Nodo("¿Qué deseas hacer primero?", "Conseguir alimento/agua", "Conseguir refugio", false, "");
@@ -47,7 +47,6 @@ public class Arbol {
         System.out.println("1. " + actual.opcion1);
         System.out.println("2. " + actual.opcion2);
 
-        // Se asume que la entrada ya fue validada en el menú
         System.out.print("Selecciona una opcion (1 o 2): ");
         int eleccion = sc.nextInt();
 
